@@ -7,7 +7,7 @@ import GITHUB from '../../assets/TechnologiesIcons/github.svg';
 import JAVASCRIPT from '../../assets/TechnologiesIcons/javascript.svg';
 import SASS from '../../assets/TechnologiesIcons/sass.svg';
 import WEBPACK from '../../assets/TechnologiesIcons/webpack.svg';
-import REACT from '../../assets/TechnologiesIcons/vuejs.svg';
+import REACT from '../../assets/TechnologiesIcons/react.svg';
 
 const TechnologiesIcons = () => (
   <Wrapper>
