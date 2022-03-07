@@ -1,7 +1,16 @@
 import React from 'react';
+import styled from 'styled-components';
+
+const Wrapper = styled.div`
+  width: 736px;
+  height: 100%;
+  background-color: ${({ theme }) => theme.colors.white};
+  border-radius: 40px;
+  margin: 0 0 0 auto;
+`;
 
 const About = () => (
-  <div>
+  <Wrapper>
     <h2>About me</h2>
     <p>
       I have been learning JavaScript, CSS, and HTML with ups and downs for 1.5 year - I know what is destructuring and after spending hours in
@@ -11,7 +20,7 @@ const About = () => (
     </p>
     <h2>Technologies</h2>
     <div></div>
-  </div>
+  </Wrapper>
 );
 
 export default About;
