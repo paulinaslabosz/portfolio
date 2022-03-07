@@ -1,13 +1,5 @@
 import React from 'react';
-import styled from 'styled-components';
-
-const Wrapper = styled.div`
-  width: 736px;
-  height: 100%;
-  background-color: ${({ theme }) => theme.colors.white};
-  border-radius: 40px;
-  margin: 0 0 0 auto;
-`;
+import { Wrapper } from './About.styles.js';
 
 const About = () => (
   <Wrapper>
