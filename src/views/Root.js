@@ -1,7 +1,12 @@
 import './Root.css';
+import Card from '../components/Card';
 
 function Root() {
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      <Card />
+    </div>
+  );
 }
 
 export default Root;
