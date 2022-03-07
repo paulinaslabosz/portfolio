@@ -13,13 +13,13 @@ export const Wrapper = styled.div`
 export const UserPhoto = styled.img`
   border-radius: 40px;
   width: 230px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 `;
 
 export const Name = styled.h2`
   font-size: 30px;
   font-weight: 400;
-  margin-bottom: 23px;
+  margin: 15px 0 16px;
   color: ${({ theme }) => theme.colors.black};
 `;
 
