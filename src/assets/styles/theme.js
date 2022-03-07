@@ -10,6 +10,6 @@ export const theme = {
   fontSize: {
     l: '30px',
     m: '20px',
-    s: '16px',
+    s: '17px',
   },
 };
